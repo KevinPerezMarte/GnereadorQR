@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Kevin Perez CH-7317-->
+    <!--pagina subida en el elace: https://kevinperezmarte.github.io/Proyecto/ -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menu</title>
+    <title>Generador QR</title>
+    <link rel='stylesheet' href='style.css' type='text/css'>
+</head>
+
+<body>
+
+    <div class="content">
+        <header>
+            <h1>Generador QR</h1>
+        </header>
+        <section>
+            <div class="formulario">
+                <input id="NombresyApellidos" type="text" placeholder="Nombres y Apellidos">
+                <input id="Empresa" type="text" placeholder="Empresa">
+                <input id="Cargo" type="text" placeholder="Cargo">
+                <input id="Telefono" type="text" placeholder="Numero de telefono">
+                <input id="Celular" type="text" placeholder="Numero de Movil">
+                <input id="Correo" type="email" placeholder="Correo electronico">
+                <input id="CorreoI" type="email" placeholder="Institucion Correo">
+                <button id="generarCodigo">Enviar y Generar</button>
+            </div>
+            <div id="codigoQR"></div>
+        </section>
+        <div class="validacion"></div>
+    </div>
+    <footer>
+        <div class="copyright">
+            &copy; <b>2020 Materia INF-517. All rights reserved for Kevin Perez.</b>
+        </div>
+    </footer>
+    <script src="queryjan.js"></script>
+    <script src="qrcode.js"></script>
+    <script src="accion.js"></script>
+</body>
+
+</html>
